@@ -8,7 +8,6 @@ function convertInputToArray(userInput) {
 }
 
 const froyoFlavours = convertInputToArray(userInput);
-console.log(froyoFlavours);
 
 const flavourCounter = {};
 for (let i = 0; i < froyoFlavours.length; i++) {
