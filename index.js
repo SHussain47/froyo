@@ -3,11 +3,11 @@ const userInput = prompt(
   "vanilla,vanilla,vanilla,strawberry,coffee,coffee"
 );
 
-function convertInputToArray(userInput) {
+function convertUserInputToArray(userInput) {
   return userInput.split(",");
 }
 
-const froyoFlavours = convertInputToArray(userInput);
+const froyoFlavours = convertUserInputToArray(userInput);
 
 const flavourCounter = {};
 for (let i = 0; i < froyoFlavours.length; i++) {
